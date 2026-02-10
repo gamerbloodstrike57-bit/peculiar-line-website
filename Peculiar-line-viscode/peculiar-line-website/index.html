@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peculiar Line Limited | Financial Freedom</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="nav">
+      <h2 class="logo">PECULIAR LINE LIMITED</h2>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Financial Freedom Is Just A Line Away</h1>
+      <p>Fast loans • Flexible repayment • No hidden charges</p>
+      <a href="#apply" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <p class="section-subtitle">Get funds in 3 simple steps</p>
+    <div class="steps-container">
+      <div class="step">
+        <div class="step-number">①</div>
+        <h3>Apply Online</h3>
+        <p>Fill out a quick form with your details and loan requirements</p>
+      </div>
+      <div class="step">
+        <div class="step-number">②</div>
+        <h3>Get Approved</h3>
+        <p>We review your application and approve it within hours</p>
+      </div>
+      <div class="step">
+        <div class="step-number">③</div>
+        <h3>Receive Funds</h3>
+        <p>Get your funds disbursed within 24 hours or less</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services" class="section services">
+    <h2>What We Offer</h2>
+    <p class="section-subtitle">Tailored financial solutions for your success</p>
+
+    <div class="grid">
+      <div class="card">⚡ Rapid Disbursement (24 hours)</div>
+      <div class="card">💰 Attractive Interest Rates</div>
+      <div class="card">📅 Flexible Repayment Plans</div>
+      <div class="card">📄 Minimal Documentation</div>
+      <div class="card">🔒 No Hidden Charges</div>
+    </div>
+  </section>
+
+
+  <!-- LOAN CALCULATOR -->
+  <section class="section calculator">
+    <h2>Loan Calculator</h2>
+    <p class="section-subtitle">Calculate your monthly payment instantly</p>
+
+    <input type="number" id="amount" placeholder="Loan Amount (₦)" />
+    <input type="number" id="rate" placeholder="Interest Rate (%)" />
+    <input type="number" id="months" placeholder="Months" />
+
+    <div class="calculator-buttons">
+      <button onclick="calculateLoan()" class="btn">Calculate</button>
+      <button onclick="clearCalculator()" class="btn btn-clear">Clear</button>
+    </div>
+
+    <h3 id="result"></h3>
+  </section>
+
+
+  <!-- APPLICATION FORM -->
+  <section id="apply" class="section">
+    <h2>Apply For A Loan</h2>
+
+    <form id="loanForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="number" placeholder="Loan Amount Needed (₦)" required />
+      <textarea placeholder="Purpose of Loan"></textarea>
+
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+
+    <p>📞 0803 343 4640</p>
+    <p>📞 0902 153 0232</p>
+    <p>📧 peculiarinelimited@gmail.com</p>
+    <p>📍 Ogudu GRA, Lagos, Nigeria</p>
+  </section>
+
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://wa.me/2348033434640" class="whatsapp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+  <footer>
+    <p>© 2026 Peculiar Line Limited. All rights reserved.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
